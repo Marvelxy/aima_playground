@@ -13,7 +13,9 @@ You need to create a `.env.local` file in the root directory and place the follo
 OPENAI_API_KEY=YOUR_API_KEY_HERE
 ```
 
-Replace YOUR_API_KEY_HERE with your openAI API key
+Replace YOUR_API_KEY_HERE with your openAI API key.
+
+The `.env.local` file isn't added to git history, so your API key is safe 😉 
 
 You can obtain your free API KEY from [openai's site](https://platform.openai.com/account/api-keys)
 
