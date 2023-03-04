@@ -6,6 +6,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 $ npm install
 ```
 
+## Env variable and API key
+You need to create a `.env.local` file in the root directory and place the following variable:
+
+```
+OPENAI_API_KEY=YOUR_API_KEY_HERE
+```
+
+Replace YOUR_API_KEY_HERE with your openAI API key
+
+You can obtain your free API KEY from [openai's site](https://platform.openai.com/account/api-keys)
+
 ## Starting the dev server
 
 Run the development server:
