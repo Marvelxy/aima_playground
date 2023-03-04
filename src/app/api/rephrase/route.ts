@@ -19,7 +19,7 @@ export async function GET(request: Request) {
   return new Response(
     JSON.stringify({
       original_text: original_text,
-      rephrased_text: rephrase.data.choices,
+      rephrased_text: rephrase.data.choices[0].text,
     }),
     {
       status: 200,
